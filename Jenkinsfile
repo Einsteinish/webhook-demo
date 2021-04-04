@@ -9,7 +9,7 @@ pipeline {
         stage('test') {
             steps {
                 echo 'testing Dev...'
-                echo 'testing Grrovy script - Dev  # 1'
+                echo 'testing Grrovy script - Dev  # 2'
                 script {
                   def browsers = ['chrome', 'firefox']
                   for (int i = 0; i < browsers.size(); ++i ) {
