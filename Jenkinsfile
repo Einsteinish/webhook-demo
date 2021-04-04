@@ -9,15 +9,13 @@ pipeline {
         stage('test') {
             steps {
                 echo 'testing Dev...'
-                /*
-                echo 'testing Grrovy script - Dev '
+                echo 'testing Grrovy script - Dev  # 1'
                 script {
                   def browsers = ['chrome', 'firefox']
                   for (int i = 0; i < browsers.size(); ++i ) {
                     echo "Testing the ${browsers[i]} browser"
                   }
                 }
-                */
             }
         }
         stage('deploy') {
