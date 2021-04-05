@@ -8,7 +8,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                echo 'try #1'
+                echo 'try #2 webhook'
                 echo 'testing Groovy script'
                 script {
                   def browsers = ['chrome', 'firefox']
